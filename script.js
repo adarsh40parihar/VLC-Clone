@@ -10,7 +10,7 @@ const speedUpHandler = function () {
     console.log("Speed Up was Clicked");
 }
 speedUp.addEventListener("click",speedUpHandler);
-
+// when open button is clicked
 const fileSelector = function () {
     console.log("Open button Clicked");
     videoInput.click();
