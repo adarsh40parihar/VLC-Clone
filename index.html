@@ -19,23 +19,24 @@
         <div class="menu-bar">
             <!-- open -->
             <div class="menu">
-                <div class="menu-open">Open</div>
+                <div class="menu-btn" id="videoBtn">Open</div>
+                <input type="file" class="videoInput" id="videoInput">
             </div>
 
             <!-- speed -->
             <div class="menu">
                 <div class="menu-btn">Playback</div>
                 <ul class="menu-items">
-                    <li >SpeedUp</li>
-                    <li style="border-top: 1px solid grey;">SpeedDown</li>
+                    <li id="speedup">SpeedUp</li>
+                    <li id="speeddown" style="border-top: 1px solid grey;">SpeedDown</li>
                 </ul>
             </div>
             <!-- volume -->
             <div class="menu">
-                <div class="menu-Audio">Audio</div>
+                <div class="menu-btn">Audio</div>
                     <ul class="menu-items">
-                        <li>Volume Up</li>
-                        <li style="border-top: 1px solid grey;">Volume Down</li>
+                        <li id="volumeup">Volume Up</li>
+                        <li id="volumedown" style="border-top: 1px solid grey;">Volume Down</li>
                     </ul>
             </div>
         </div>
@@ -43,12 +44,12 @@
 
      <!-- ----------------main----------- -->
     <main>
-        <img class="default-img" src="/src/VLC_Icon.svg" alt="">
+        <img class="default-img" src="./src/VLC_Icon.svg" alt="VLC logo">
     </main>
 
     <!-- ----------------footer----------- -->
     <footer></footer>
 
-
+    <script src="script.js"></script>
 </body>
 </html>
