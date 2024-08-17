@@ -10,20 +10,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- ----------------header----------- -->
     <header>
         <div class="title-bar">
             <img class="title-svg" src="./src/VLC_Icon.svg" alt="VLC logo">
             <h1 class="title-text">VLC Media Player</h1>
         </div>
         <div class="menu-bar">
-            <div class="menu-open">Open</div>
-            <div class="menu-Playback">Playback</div>
-            <div class="menu-Audio">Audio</div>
+            <!-- open -->
+            <div class="menu">
+                <div class="menu-open">Open</div>
+            </div>
+
+            <!-- speed -->
+            <div class="menu">
+                <div class="menu-btn">Playback</div>
+                <ul class="menu-items">
+                    <li >SpeedUp</li>
+                    <li style="border-top: 1px solid grey;">SpeedDown</li>
+                </ul>
+            </div>
+            <!-- volume -->
+            <div class="menu">
+                <div class="menu-Audio">Audio</div>
+                    <ul class="menu-items">
+                        <li>Volume Up</li>
+                        <li style="border-top: 1px solid grey;">Volume Down</li>
+                    </ul>
+            </div>
         </div>
     </header>
+
+     <!-- ----------------main----------- -->
     <main>
         <img class="default-img" src="/src/VLC_Icon.svg" alt="">
     </main>
+
+    <!-- ----------------footer----------- -->
     <footer></footer>
 
 
