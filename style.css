@@ -63,7 +63,7 @@ header{
     border: 1px solid rgb(96, 95, 95);
     position: absolute;
     border-radius: 6px;
-    top:6px;
+    top:7px;
     cursor: pointer;
     width: 6.5rem;
     display: none;
@@ -88,8 +88,11 @@ main{
 }
 .default-img{
     height: 20%;
-    
 }
+.video{
+    height: 100%;
+}
+
 
 
 
