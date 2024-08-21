@@ -92,6 +92,14 @@ main{
 .video{
     height: 100%;
 }
+.toast{
+    position: fixed;
+    color: white;
+    font-size: 2rem;
+    top: 90px;
+    right: 81px;
+    display: none;
+}
 
 
 
